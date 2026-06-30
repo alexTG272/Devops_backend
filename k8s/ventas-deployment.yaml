@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ventas
-        image: 341863303538.dkr.ecr.us-east-1.amazonaws.com/innovatech-ventas:latest
+        image: 745505531953.dkr.ecr.us-east-1.amazonaws.com/eksventas:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
